@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop - Radiant Aura</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header style="background-color: #B76E79; color: #fff; padding: 20px; text-align: center;">
+        <h1>Radiant Aura Jewelry Shop</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav style="background-color: #555; display: flex; justify-content: center; margin-bottom: 20px;">
+        <a href="index.html" style="color: white; padding: 14px 20px; text-decoration: none; text-align: center;">Home</a>
+        <a href="shop.html" style="color: white; padding: 14px 20px; text-decoration: none; text-align: center;">Shop</a>
+        <a href="about.html" style="color: white; padding: 14px 20px; text-decoration: none; text-align: center;">About</a>
+        <a href="contact.html" style="color: white; padding: 14px 20px; text-decoration: none; text-align: center;">Contact</a>
+    </nav>
+
+    <!-- Shop Section -->
+    <section style="padding: 40px 20px; text-align: center;">
+        <h2>Our Exclusive Jewelry Collection</h2>
+        <p>Browse through our stunning collection of fine jewelry and find the perfect piece for yourself or a loved one.</p>
+        
+        <!-- Product Grid -->
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px;">
+            <!-- Product Card 1 -->
+            <div style="background-color: white; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); text-align: center; border-radius: 8px;">
+                <img src="product1.jpeg" alt="Gold Necklace" style="width: 100%; height: auto; border-radius: 8px;">
+                <h3 style="font-size: 22px; margin: 10px 0;">Gold Necklace</h3>
+                <p style="color: #888;">IDR 3,000,000</p>
+                <button style="background-color: #333; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;">Add to Cart</button>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div style="background-color: white; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); text-align: center; border-radius: 8px;">
+                <img src="product2.jpeg" alt="Diamond Earrings" style="width: 100%; height: auto; border-radius: 8px;">
+                <h3 style="font-size: 22px; margin: 10px 0;">Diamond Earrings</h3>
+                <p style="color: #888;">IDR 5,500,000</p>
+                <button style="background-color: #333; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;">Add to Cart</button>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div style="background-color: white; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); text-align: center; border-radius: 8px;">
+                <img src="product3.jpeg" alt="Silver Bracelet" style="width: 100%; height: auto; border-radius: 8px;">
+                <h3 style="font-size: 22px; margin: 10px 0;">Silver Bracelet</h3>
+                <p style="color: #888;">IDR 1,800,000</p>
+                <button style="background-color: #333; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section style="padding: 40px 20px; background-color: #F9F9F9; text-align: center;">
+        <h2>Make a Payment</h2>
+        <p>Select your preferred payment method:</p>
+        <form style="max-width: 400px; margin: 0 auto; text-align: left;">
+            <label>
+                <input type="radio" name="payment" value="qris" style="margin-right: 10px;">
+                QRIS
+            </label><br>
+            <label>
+                <input type="radio" name="payment" value="gopay" style="margin-right: 10px;">
+                GoPay
+            </label><br>
+            <label>
+                <input type="radio" name="payment" value="shopeepay" style="margin-right: 10px;">
+                ShopeePay
+            </label><br>
+            <label>
+                <input type="radio" name="payment" value="bank" style="margin-right: 10px;">
+                Bank Transfer
+            </label><br><br>
+            <button type="submit" style="background-color: #333; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;">Proceed to Payment</button>
+        </form>
+    </section>
+
+</body>
+</html>
